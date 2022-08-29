@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cards .card {
+  background-color: aqua;
+  width: calc(20% - 1rem);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.cards .card > h4 {
+  margin-bottom: 0.5rem;
+}
+

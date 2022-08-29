@@ -16,8 +16,8 @@ class CreateTravelsTable extends Migration
         Schema::create('travels', function (Blueprint $table) {
             //definisco le colonne della tabella
             $table->id();
-            $table->string('partenza', 15);
-            $table->string('destinazione', 15);
+            $table->string('partenza', 50);
+            $table->string('destinazione', 50);
             $table->date('orario_partenza');
             $table->date('orario_arrivo');
             $table->unsignedDecimal('prezzo', 7,2);
